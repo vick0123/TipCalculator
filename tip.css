@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Raleway;
+    src: url("RalewayLight.ttf") format("truetype")
+  }
+  
+  @font-face {
+    font-family: Cinzel;
+    src: url(Cinzel.ttf) format("truetype");
+  }
+
+
+  body {
+    background-image: url("BGTipCalc.png")
+  }
+
+#results {
+    display:none;
+    font-family: Raleway;
+
+  }
+
+label{
+  padding-top: 10px;
+  padding-right: 5px;
+    font-family: Cinzel;
+    font-size: 20px;
+}  
+.card{
+
+    border-radius: 10px;
+
+}
+.heading{
+    font-family: Cinzel;
+}
+
+p{
+    font-family: Raleway;
+
+}
